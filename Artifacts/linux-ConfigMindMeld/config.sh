@@ -4,7 +4,7 @@
 sudo apt update && sudo apt dist-upgrade -y
 
 # install and config iptables
-sudo apt install -y iptables-persistent
+#sudo apt install -y iptables-persistent
 sudo iptables -A INPUT -i lo -j ACCEPT
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -A INPUT -p tcp -m tcp --dport 22 -j ACCEPT

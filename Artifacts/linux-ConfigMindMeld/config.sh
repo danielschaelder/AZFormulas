@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # update the os
 sudo apt update && sudo apt dist-upgrade -y
 

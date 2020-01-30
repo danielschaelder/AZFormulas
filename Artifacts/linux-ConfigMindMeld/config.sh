@@ -35,6 +35,4 @@ sudo apt install -y nginx redis-server
 
 # installing MindMeld
 sudo apt install -o Dpkg::Options::="--force-overwrite" -y minemeld
-
-# restart vm
-sudo shutdown -r now
+echo "MineMeld installation done"
